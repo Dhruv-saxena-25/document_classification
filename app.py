@@ -53,12 +53,13 @@ app=application
 
 @app.route('/')
 def index():
-    return render_template('home.html')
+    return render_template('index.html')
 
 
 @app.route('/predictdata',methods=['GET','POST'])
 def predict_datapoint():
     if request.method == 'POST':
+            os.makedirs("data", exist_ok= True)
             # Extract the text input from the form
             file = request.files['file']
             if file:
@@ -70,7 +71,8 @@ def predict_datapoint():
             pred = load_model.predict(padded)
             pred = np.argmax(pred[0])
             label_mapping = {0: "Sport", 1: "Business", 2: "Politics", 3: "Tech", 4: "Entertainment"}
-            return render_template('home.html',results=label_mapping[pred])
+            print(label_mapping[pred])
+            return render_template('index.html',results=label_mapping[pred])
 
 
 

@@ -50,7 +50,13 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
-
+BBC
+model
+tokenizer
+bbc_data
+data 
+venv/
+notebook\Documents_classification.ipynb
 # Translations
 *.mo
 *.pot

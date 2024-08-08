@@ -37,7 +37,7 @@ python app.py
 ```
 
 ## Flask Preview
-![alt text](image.png)
+![Screenshot](image.png)
 
 ## Preview After Prediction
 ![alt text](image-1.png)

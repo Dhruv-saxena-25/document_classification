@@ -56,7 +56,9 @@ tokenizer
 bbc_data
 data 
 venv/
-notebook\Documents_classification.ipynb
+.notebook\Documents_classification.ipynb
+app1.py
+
 # Translations
 *.mo
 *.pot

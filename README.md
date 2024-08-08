@@ -6,7 +6,7 @@
 Clone the repository
 
 ```bash
-Project repo: https://github.com/Dhruv-saxena-25/document_classification
+    git clone https://github.com/Dhruv-saxena-25/document_classification
 ```
 ### STEP 01- Create a conda environment after opening the repository
 

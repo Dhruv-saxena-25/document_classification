@@ -5,6 +5,11 @@
 
 Clone the repository
 
+## Data Link:
+```bash
+    https://www.kaggle.com/datasets/shivamkushwaha/bbc-full-text-document-classification/data
+```
+
 ```bash
     git clone https://github.com/Dhruv-saxena-25/document_classification
 ```

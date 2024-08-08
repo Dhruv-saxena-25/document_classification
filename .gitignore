@@ -59,7 +59,7 @@ venv/
 Documents_classification.ipynb
 app1.py
 home.html
-
+*.png 
 # Translations
 *.mo
 *.pot

@@ -1,9 +1,12 @@
 # Document Classification 
 
 ## Data Link:
+
 ```bash
     https://www.kaggle.com/datasets/shivamkushwaha/bbc-full-text-document-classification/data
 ```
+- Unzip the data
+- Select this path for data: bbcc.zip\bbc-fulltext (document classification)\bbc
 
 # How to run?
 

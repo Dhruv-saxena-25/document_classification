@@ -1,6 +1,8 @@
 pandas 
 numpy
 scikit-learn
+transformers
+torch
 flask
 nltk
 tensorflow==2.10.0

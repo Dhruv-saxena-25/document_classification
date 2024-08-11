@@ -57,8 +57,10 @@ bbc_data
 data 
 venv/
 Documents_classification.ipynb
-app1.py
 home.html
+*.zip
+*.txt
+bbc_data.csv
 # Translations
 *.mo
 *.pot

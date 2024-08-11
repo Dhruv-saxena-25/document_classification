@@ -60,9 +60,9 @@ def predict_datapoint():
             token_fine = AutoTokenizer.from_pretrained("./notebook\data")
             model_fine = AutoModelForSequenceClassification.from_pretrained("./notebook\data")
             pipe = pipeline("text-classification", model= model_fine, tokenizer= token_fine)
-            label_mapping = {'LABEL_0': "Sport", 'LABEL_1': "Business", 'LABEL_2': "Politics",
-                 'LABEL_3': "Tech", 'LABEL_4': "Entertainment"}
-            pred = f"Document Classifiy As: {label_mapping[pipe(test)[0]['label']]}"
+            label_mapping = {'LABEL_0': "Sports", 'LABEL_1': "Business", 'LABEL_2': "Politics",
+                 'LABEL_3': "Technology", 'LABEL_4': "Entertainment"}
+            pred = f"{label_mapping[pipe(test)[0]['label']]}"
             print(label_mapping[pipe(test)[0]['label']])
             return render_template('index.html',results=pred)
 
